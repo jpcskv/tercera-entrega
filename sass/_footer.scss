@@ -1,0 +1,25 @@
+.contact{
+	padding: 5px 10%;
+	background: #E02B71;
+
+    .main-contact{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    .contact-content li{
+        margin-bottom: 15px;
+    }
+    .contact-content li a{
+        display: block;
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all .40s ease;
+    }
+    .contact-content li a:hover{
+        transform: translateX(-10px);
+    }
+}
+

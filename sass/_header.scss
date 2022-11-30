@@ -1,0 +1,38 @@
+header{
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	position: fixed;
+	background: #E02B71;
+	box-shadow: 0px 2px 18px 0 rgb(129 162 182 / 20%);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 8%;
+	transition: .3s;
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+    #menu-icon{
+        font-size: 38px;
+        color: #f5f5f5;
+        z-index: 10001;
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar a{
+        font-size: 20px;
+        color: #000;
+        font-weight: 600;
+        padding: 10px 15px;
+        margin: 0 10px;
+        transition: all .40s ease;
+    }
+    .navbar a:hover{
+        color: #ffffff;
+    }
+}

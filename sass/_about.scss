@@ -1,0 +1,23 @@
+.about{
+	background: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    
+    .about-content{
+        text-align: center;
+    }
+    .about-content h2{
+        font-size: 35px;
+        margin-bottom: 25px;
+        color: #ffffff;
+    }
+    .about-content p{
+        max-width: 600px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 30px;
+    }
+}
