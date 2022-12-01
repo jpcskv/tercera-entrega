@@ -1,8 +1,15 @@
-@import "/sass/reset";
-@import "/sass/body";
-@import "/sass/header";
-@import "/sass/boxes";
-@import "/sass/about";
-@import "/sass/footer";
-@import "/sass/login";
-@import "/sass/media";
+@import "reset";
+@import "body";
+@import "header";
+@import "boxes";
+@import "about";
+@import "footer";
+@import "login";
+@import "media";
+
+@mixin bodyColor {
+    background: #f5f5f5;
+}
+body {
+    @include bodyColor
+}
